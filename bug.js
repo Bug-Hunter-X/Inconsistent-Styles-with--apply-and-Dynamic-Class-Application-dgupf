@@ -1,0 +1,1 @@
+The issue arises when using Tailwind's `@apply` directive within a class that's conditionally applied using JavaScript.  If the class containing `@apply` is added or removed dynamically, the styles might not update correctly, leading to inconsistent or missing styles. This is because `@apply`'s style injection happens at build time, not runtime.
